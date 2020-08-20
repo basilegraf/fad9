@@ -1,4 +1,4 @@
-#N canvas 983 179 840 737 10;
+#N canvas 955 207 840 737 10;
 #X obj 12 104 fad9 17;
 #X floatatom 329 577 5 0 0 0 - - -, f 5;
 #X floatatom 275 577 5 0 0 0 - - -, f 5;
@@ -84,6 +84,7 @@
 (probably 17);
 #X text 16 78 Dependency: The flatgui library is needed for flatgui/knob
 ;
+#X text 19 700 github.com/basilegraf/fad9;
 #X connect 10 0 2 0;
 #X connect 11 0 1 0;
 #X connect 12 0 4 0;
