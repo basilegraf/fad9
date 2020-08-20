@@ -1,4 +1,4 @@
-#N canvas 0 60 1920 1020 10;
+#N canvas 983 179 840 737 10;
 #X obj 12 104 fad9 17;
 #X floatatom 329 577 5 0 0 0 - - -, f 5;
 #X floatatom 275 577 5 0 0 0 - - -, f 5;
@@ -79,9 +79,11 @@
 #X floatatom 67 576 5 0 0 0 - - -, f 5;
 #X floatatom 153 576 5 0 0 0 - - -, f 5;
 #X text 11 372 Messages mapping:;
-#X text 16 19 Omnitronic FAD.9 interface patch;
-#X text 16 48 Construction: [fad9 chNum] with chNum the channel number
+#X text 16 10 Omnitronic FAD.9 interface patch;
+#X text 16 39 Construction: [fad9 chNum] with chNum the channel number
 (probably 17);
+#X text 16 78 Dependency: The flatgui library is needed for flatgui/knob
+;
 #X connect 10 0 2 0;
 #X connect 11 0 1 0;
 #X connect 12 0 4 0;
